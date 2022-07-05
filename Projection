@@ -51,6 +51,5 @@ for i in [55,36,25,54,80,81,83,90]:
     plp.scatter(L[:, 0], L[:, 1], c=np.linspace(1, L.shape[0], L.shape[0]), cmap='Reds')
     plp.text(L[-1,0]+0.1, L[-1, 0]+0.1,s=str(T[n])+','+str(i),c='red')
     n = n + 1
-    #ניסינו להדפיס את מספר המטרה על הגרף באמצעות TEXT עבור הנקודת האחרונה. משהו לא הסתדר
 plp.show()
 
